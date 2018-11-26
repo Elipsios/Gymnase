@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="436.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.Fen_GymnaseController">
+   <children>
+      <Label layoutX="8.0" layoutY="14.0" prefHeight="25.0" prefWidth="196.0" text="Choisir la salle souhaite  :">
+         <font>
+            <Font name="Frank Ruehl CLM Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="18.0" text="Surface :">
+         <font>
+            <Font name="Frank Ruehl CLM Bold" size="15.0" />
+         </font></Label>
+      <Label id="lbSurface" fx:id="lbSurface" layoutX="345.0" layoutY="18.0" prefHeight="17.0" prefWidth="38.0" />
+      <Label layoutX="392.0" layoutY="18.0" prefHeight="17.0" prefWidth="143.0" text="Type de revêtement :">
+         <font>
+            <Font name="Frank Ruehl CLM Bold" size="15.0" />
+         </font></Label>
+      <Label id="lbTypeRevetement" fx:id="lbTypeRevetement" layoutX="551.0" layoutY="18.0" prefHeight="17.0" prefWidth="101.0" />
+      <ComboBox id="cmbChoixSalle" fx:id="cmbChoixSalle" layoutX="195.0" layoutY="14.0" onAction="#handleChangementSalle" prefHeight="25.0" prefWidth="52.0" />
+   </children>
+</AnchorPane>
