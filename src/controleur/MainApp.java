@@ -16,6 +16,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import modele.Salle;
+import modele.Sport;
 
 /**
  *
@@ -25,8 +26,8 @@ public class MainApp extends Application
 {
     private Stage primaryStage;
     private AnchorPane rootLayout;
-    private final ObservableList<Salle> GymnaseDonnees  = FXCollections.observableArrayList();
-    
+    private final ObservableList<Salle> SalleDonnees  = FXCollections.observableArrayList();
+    private final ObservableList<Sport> SportDonnees  = FXCollections.observableArrayList();  
     
       @Override
     public void start(Stage primaryStage)
